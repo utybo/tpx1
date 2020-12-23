@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polynomial", "Polynomial\Polynomial.csproj", "{47B3901F-5981-4248-A50C-795B52FC8910}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZoroTests", "ZoroTests\ZoroTests.csproj", "{9C34C57D-5638-455E-8B9D-C3EC086B2B16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting", "Sorting\Sorting.csproj", "{C614C108-3BA1-45C3-94BA-D7E4E550BDA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47B3901F-5981-4248-A50C-795B52FC8910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47B3901F-5981-4248-A50C-795B52FC8910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47B3901F-5981-4248-A50C-795B52FC8910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47B3901F-5981-4248-A50C-795B52FC8910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C34C57D-5638-455E-8B9D-C3EC086B2B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C34C57D-5638-455E-8B9D-C3EC086B2B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C34C57D-5638-455E-8B9D-C3EC086B2B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C34C57D-5638-455E-8B9D-C3EC086B2B16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C614C108-3BA1-45C3-94BA-D7E4E550BDA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C614C108-3BA1-45C3-94BA-D7E4E550BDA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C614C108-3BA1-45C3-94BA-D7E4E550BDA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C614C108-3BA1-45C3-94BA-D7E4E550BDA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
