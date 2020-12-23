@@ -2,7 +2,7 @@
 
 namespace Sorting
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -37,6 +37,35 @@ namespace Sorting
                     Swap(arr, new Random().Next(arr.Length), new Random().Next(arr.Length));
                 }
             }
+        }
+
+        public static void SlowSort(int[] array)
+        {
+            while (!Sorted(array))
+            {
+                SlowSortHandler(0, array.Length - 1, array);
+            }
+        }
+
+        public static void SlowSortHandler(int i, int j, int[] array)
+        {
+            if (i >= j)
+                return;
+            
+            Console.WriteLine($"Testing with {i},{j}");
+
+            int k = (i + j) / 2;
+            
+            SlowSortHandler(i, k, array);
+            SlowSortHandler(k+1, j, array);
+
+            if (array[k] > array[j])
+            {
+                Swap(array, k, j);
+                Console.WriteLine($"Swapped {array[k]} and {array[j]}");
+            }
+            
+            SlowSortHandler(k, j - 1, array);
         }
     }
 }

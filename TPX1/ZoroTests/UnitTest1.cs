@@ -71,6 +71,44 @@ namespace ZoroTests
     [TestFixture]
     public class SortingTest
     {
+        [Test]
+        public void SlowSortTest1()
+        {
+            int[] arr = new[] {31, 65, 8, 91, 43, 9, 11, 53, 76};
+            
+            Sorting.Program.SlowSort(arr);
+            
+            Assert.AreEqual(true, Sorting.Program.Sorted(arr));
+        }
         
+        [Test]
+        public void SlowSortTest2()
+        {
+            int[] arr = new[] {4568, -31, 6543, 8, 91, -4376, 967, 112, 534, 76975, 3298, 1367, -234, 984379};
+            
+            Sorting.Program.SlowSort(arr);
+            
+            Assert.AreEqual(true, Sorting.Program.Sorted(arr));
+        }
+        
+        [Test]
+        public void SlowSortTest3()
+        {
+            int[] arr = new[] {1, 2, 3, 4, 5, 6, 7, 8, 9};
+            
+            Sorting.Program.SlowSort(arr);
+            
+            Assert.AreEqual(true, Sorting.Program.Sorted(arr));
+        }
+        
+        [Test]
+        public void SlowSortTest4()
+        {
+            int[] arr = new[] {9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
+            
+            Sorting.Program.SlowSort(arr);
+            
+            Assert.AreEqual(true, Sorting.Program.Sorted(arr));
+        }
     }
 }

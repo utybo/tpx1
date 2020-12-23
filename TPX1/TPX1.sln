@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZoroTests", "ZoroTests\Zoro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting", "Sorting\Sorting.csproj", "{C614C108-3BA1-45C3-94BA-D7E4E550BDA5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingVisualizer", "SortingVisualizer\SortingVisualizer.csproj", "{B511F5D2-5A42-498A-B3D2-4C0C1A315A42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{C614C108-3BA1-45C3-94BA-D7E4E550BDA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C614C108-3BA1-45C3-94BA-D7E4E550BDA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C614C108-3BA1-45C3-94BA-D7E4E550BDA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B511F5D2-5A42-498A-B3D2-4C0C1A315A42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B511F5D2-5A42-498A-B3D2-4C0C1A315A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B511F5D2-5A42-498A-B3D2-4C0C1A315A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B511F5D2-5A42-498A-B3D2-4C0C1A315A42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
