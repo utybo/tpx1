@@ -9,7 +9,7 @@ namespace SortingVisualizer
         static void Main(string[] args)
         {
             Console.Clear();
-            
+            Console.CursorVisible = false;
             int[] arr1 = new[] {0, 4568, -31, 6543, 8, 91, -4376, 967, 112, 534, 76975, 3298, 1367, -234, 984379};
             
             Console.WriteLine($"Sorting: BubbleSort | Change 0");
@@ -25,6 +25,7 @@ namespace SortingVisualizer
             Console.WriteLine($"Sorting: QuickSort | Change 0");
             DisplayArray(arr2, -1);
             SortAlgorithms.QuickSort(arr2);
+            Console.CursorVisible = true;
         }
         
         public static void CleanDisplay(int[] ints)
